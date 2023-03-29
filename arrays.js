@@ -5,7 +5,7 @@ var boolean = [true, false, true, false]
 //the push method adds any number of elements following the last element in an array
 friends.push("Mitch", "Eddie");
 
-console.log(push);
+console.log(friends);
 
 //the pop method removes the last element in an array
 numbers.pop();
@@ -21,4 +21,5 @@ console.log(boolean);
 //In this case 0 = 1, 1 = 2, 2 = 3, and 3 = 4. 
 //We do this to count more effeciently. If I were to tell you grab element 0 it would be 1 meaning you move 0 times.
 //If I ask you to grab element 3 you would grab 4 because you move over three times.
+//We call this form of counting Index Position.
 var integers = [1, 2, 3, 4];
